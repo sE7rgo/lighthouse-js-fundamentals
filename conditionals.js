@@ -1,7 +1,11 @@
-const temperature = 44;
-if (temperature < -40 || temperature > 40) {
-  console.log("Maybe going outside isn't such a great idea…");
+const whichSchool  = function (age) {
+  if (age >= 1 && age < 13){
+  return ("Elementary School");
+}else if(age>=13 && age<=18){
+  return("Secondary School");
+}else{
+  return("Lighthouse Labs");
 }
-if (!raining) {
-  console.log("Leave your umbrella at home!");
-}
+}// Your code in here ...function whichSchool(age) {
+// Your code in here …
+console.log(whichSchool(12));
